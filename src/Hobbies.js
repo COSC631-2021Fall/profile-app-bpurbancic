@@ -9,7 +9,7 @@ const Hobbies = () => {
             When I'm not coding, I enjoy long walks on the beach.
 
             </h4>
-            <img src=""
+            
         </div>
     );
 }
