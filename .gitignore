@@ -11,6 +11,9 @@
 # production
 /build
 
+# unknown: why is this in my vs code project?
+/profile-app-bpurbancic
+
 # misc
 .DS_Store
 .env.local
