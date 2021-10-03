@@ -1,4 +1,4 @@
-import Hobbies from './Hobbies';
+import Hobbies from './components/Hobbies';
 
 function App() {
     return(
