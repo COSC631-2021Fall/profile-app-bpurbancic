@@ -1,16 +1,17 @@
+import Navbar from './components/Navbar';
+import Education from './components/Education';
 import Hobbies from './components/Hobbies';
 
 function App() {
-    return(
-        <div>
-            <h2>
-                COSC 631: E Commerce
-            </h2>
-            <h3>
-                <Hobbies />
-            </h3>
+    return (
+      <div className='App'>
+        <Navbar />
+        <div className='container'>
+          <Education />
+          <Hobbies />
         </div>
-    )
-}
+      </div>
+    );
+  }
 
 export default App;
