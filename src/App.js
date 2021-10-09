@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Education from './components/Education';
 import Hobbies from './components/Hobbies';
+import Contact from './components/More';
 //import * from './components/More';
 import img from './images/Bo.jpg';
 
@@ -12,6 +13,7 @@ function App() {
         <div className='container'>
           <Education />
           <Hobbies />
+          <Contact />
          
         </div>
       </div>

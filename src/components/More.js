@@ -29,5 +29,5 @@ const FutureUse = () => {
     );
 }
 
-export {Contact, FutureUse};
+
 export default Contact;
