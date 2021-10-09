@@ -5,7 +5,7 @@ const Navbar = () => {
             <h1> Online CV</h1>
             <div className='links'>
                 <a href='/'>Home  </a>
-                <a href='/about'>About  </a>
+                <a href='/education'>Education  </a>
                 <a href='/comments'>Comments</a>
             </div>
         </nav>
