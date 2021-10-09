@@ -7,7 +7,7 @@ const Hobbies = () => {
                 
             </h3>
             <h4>
-            When I'm not coding, I enjoy long walks on the beach.
+                When I'm not coding, I enjoy long walks on the beach.
             </h4>
             
         </div>
