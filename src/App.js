@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Education from './components/Education';
 import Hobbies from './components/Hobbies';
+//import * from './components/More';
 import img from './images/Bo.jpg';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <div className='container'>
           <Education />
           <Hobbies />
+         
         </div>
       </div>
     );
