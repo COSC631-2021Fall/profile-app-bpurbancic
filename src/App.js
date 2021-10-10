@@ -4,13 +4,22 @@ import * as sections from './components/Sections';
 import Skills from './components/skills';
 import Experience from './components/experience';
 import {BrowserRouter, Route} from "react-router-dom";
+import {useState} from "react";
 
 
 function App() {
+    const themes=['white', 'blue', 'yellow'];
+    const [themeID, setThemeID] = useState(0);
+    const switchTheme = () => {
+      setThemeID((id) => (id+1)%3);
+    }
+
     return (
+      <div style={{backgroundColor:themes[themeID]}}>
       <div className='App'>
-        
+        <div><button onClick={switchTheme}>Switch Theme</button></div>
         <Navbar />
+        
         <BrowserRouter>
           <Route path="/skills">
             <Skills />
@@ -29,6 +38,7 @@ function App() {
          
         </div>
         
+      </div>
       </div>
     );
   }

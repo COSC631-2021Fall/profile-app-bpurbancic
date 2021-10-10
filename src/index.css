@@ -1,11 +1,8 @@
 div {
-  text-align: center;
-  background-color: #97D700;
-  color: #046A38;
+  text-align: center; 
+  /*background-color: yellow;*/
+  color: #00274C;
 }
-
-
-
 
 .App-header {
   background-color: #282c34;
