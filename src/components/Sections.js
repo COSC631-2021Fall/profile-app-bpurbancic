@@ -1,4 +1,4 @@
-const Education = () => {
+export const Education = () => {
     return (
       <div className='education'>
         <h2>Education</h2>
@@ -23,6 +23,37 @@ const Education = () => {
         </p>
       </div>
     );
-  };
+  }
   
-  export default Education;
+export const Hobbies = () => {
+    return ( 
+        <div>
+            <h2>Hobbies</h2>
+            <h3>
+                I'm new here, so here goes.
+                
+            </h3>
+            <h4>
+                When I'm not coding, I enjoy long walks on the beach.
+            </h4>
+            
+        </div>
+    );
+}
+
+export const Contact = () => {
+  return ( 
+      <div>
+          <h2>Contact</h2>
+          <h3>
+              Brian P. Urbancic
+              
+          </h3>
+          <p>brian@urbancic.com</p>
+          <p>734-646-0155</p>
+          <p>Brian Urbancic#0300</p>
+          
+      </div>
+  );
+}
+  
