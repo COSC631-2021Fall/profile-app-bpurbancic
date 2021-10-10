@@ -4,7 +4,7 @@ import * as sections from './components/Sections';
 import Skills from './components/skills';
 import Experience from './components/experience';
 import {BrowserRouter, Route} from "react-router-dom";
-import {useState} from "react";
+import {useState, useEffect} from "react";
 
 
 function App() {
@@ -13,6 +13,22 @@ function App() {
     const switchTheme = () => {
       setThemeID((id) => (id+1)%3);
     }
+
+    const handleKeydown = (event) => {
+      switch (event.key) {
+        case "0":
+        case "1":
+        case "2":
+          setThemeID(parseInt(event.key));
+          break;
+      }
+    }
+
+    useEffect(
+      () => {
+        window.addEventListener("keydown", handleKeydown);
+      }
+    );
 
     return (
       <div style={{backgroundColor:themes[themeID]}}>
