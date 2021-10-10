@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar';
-
-import * as sections from './components/Sections';
 import img from './images/Bo.jpg';
+import * as sections from './components/Sections';
+
 
 function App() {
     return (
