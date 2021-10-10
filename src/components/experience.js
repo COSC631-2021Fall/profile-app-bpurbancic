@@ -1,4 +1,4 @@
-function Module2() {
+function Experience() {
     return (
         <div>
             <h2>Experience: I'm looking forward to getting it.</h2>
@@ -6,4 +6,4 @@ function Module2() {
     );
 }
 
-export default Module2;
+export default Experience;
