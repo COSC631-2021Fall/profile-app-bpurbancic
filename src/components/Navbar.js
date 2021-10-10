@@ -4,10 +4,9 @@ function Navbar() {
             <h1>Brian Urbancic</h1>
             <h1> Online CV</h1>
             <div className='links'>
-                <a href='/'>Home  </a>
-                <a href='/education'>Education  </a>
-                <a href='/hobbies'>Hobbies </a>
-                <a href='/contact'>Contact </a>
+                <a href='/'>Home  ~  </a>
+                <a href='/experience'>Experience  ~  </a>
+                <a href='/skills'>Skills </a>
             </div>
         </nav>
     );
