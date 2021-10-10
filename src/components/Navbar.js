@@ -1,4 +1,4 @@
-const Navbar = () => {
+function Navbar() {
     return (
         <nav className='navbar'>
             <h1>Brian Urbancic</h1>
